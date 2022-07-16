@@ -1,11 +1,26 @@
-import type { NextPage } from 'next'
-import Head from 'next/head'
-import Image from 'next/image'
+import type {GetStaticPropsContext, NextPage} from 'next'
+import {DefaultLayout} from "../src/components/layout/default-layout";
+import {useTranslations} from "use-intl";
+
+export async function getStaticProps({locale}: GetStaticPropsContext) {
+    return {
+        props: {
+            messages: (await import(`/locales/${locale}.json`)).default
+        }
+    };
+}
 
 const Home: NextPage = () => {
-  return (
-    <></>
-  )
+
+    const translations = useTranslations('PageLayout');
+
+    return (
+        <DefaultLayout>
+            <div className={"text-primary"}>
+                { translations('pageTitle') }
+            </div>
+        </DefaultLayout>
+    )
 }
 
 export default Home
