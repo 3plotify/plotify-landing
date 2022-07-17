@@ -1,4 +1,87 @@
 {
+  "Navbar": {
+    "Links": {
+      "home": "Home",
+      "solutions": "Solutions",
+      "pricing": "Pricing",
+      "doc": "Documentation",
+      "more": "More",
+      "blog": "Blog",
+      "aboutUs": "About us",
+      "company": "Company",
+      "contact": "Contact"
+    },
+    "Solutions": {
+      "editor": {
+        "title": "Editor",
+        "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua."
+      },
+      "cloud": {
+        "title": "Cloud",
+        "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua."
+      },
+      "security": {
+        "title": "Security",
+        "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua."
+      },
+      "integrations": {
+        "title": "Integrations",
+        "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua."
+      },
+      "learnMore": "Mehr erfahren",
+      "demo": "Watch demo",
+      "products": "View all Products",
+      "contact": "Contact Sales"
+    },
+    "More": {
+      "Company": {
+        "title": "Company",
+        "about": "About",
+        "customers": "Customers",
+        "press": "Press",
+        "careers": "Careers",
+        "privacy": "Privacy"
+      },
+      "Resources": {
+        "title": "Resources",
+        "community": "Community",
+        "partners": "Partners",
+        "guides": "Guides"
+      },
+      "Blog": {
+        "title": "From the Blog",
+        "viewPosts": "View all posts"
+      }
+    }
+  },
+  "SignIn": {
+    "signUp": "Sign up",
+    "signIn": "Sign in",
+    "existing": "Existing customer?"
+  },
+  "Footer": {
+    "Section": {
+      "SocialMedia": {
+        "title": "Social Media",
+        "linkedIn": "LinkedIn",
+        "xing": "Xing",
+        "instagram": "Instagram",
+        "twitter": "Twitter",
+        "Facebook": "Facebook"
+      },
+      "AboutUs": {
+        "title": "About us",
+        "content": "Plotify seeks to create a platform that allows VR application to be designed and published. The main goal is to improve e-learning through VR."
+      },
+      "QuickLinks": {
+        "title": "Plotify",
+        "aboutUs": "About us",
+        "blog": "Blog",
+        "contact": "Contact",
+        "help": "Help"
+      }
+    }
+  },
   "PageLayout": {
     "pageTitle": "Deutsch"
   }

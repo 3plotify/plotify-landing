@@ -11,21 +11,9 @@ export async function getStaticProps({locale}: GetStaticPropsContext) {
 }
 
 const Home: NextPage = () => {
-
-    const translations = useTranslations('PageLayout');
-
     return (
         <DefaultLayout>
-            <div className={"text-primary"}>
-                { translations('pageTitle') }
-            </div>
-            <div>
-                <button type="button" onClick={() => {
-                    throw new Error("Sentry Frontend Error");
-                }}>
-                    Throw error
-                </button>
-            </div>
+
         </DefaultLayout>
     )
 }

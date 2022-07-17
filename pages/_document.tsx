@@ -11,7 +11,7 @@ export default function Document() {
         <Twitter/>
         <Facebook/>
       </Head>
-      <body className='bg-background-light dark:bg-background-dark'>
+      <body className='bg-light-200 dark:bg-dark-700'>
         <Main />
         <NextScript />
       </body>
