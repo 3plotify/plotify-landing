@@ -82,6 +82,17 @@
       }
     }
   },
+  "Page": {
+    "Landing": {
+      "Hero": {
+        "title": "3D-Stuff but ... ",
+        "subTitle": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+        "recommendOne": "5/5 would recommend",
+        "recommendTwo": "Holy crap, that is really awesome!",
+        "recommendThree": "woahh, i can't"
+      }
+    }
+  },
   "PageLayout": {
     "pageTitle": "Deutsch"
   }

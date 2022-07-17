@@ -1,0 +1,5 @@
+export function DefaultOutlineButton() {
+    return(
+        <></>
+    );
+}

@@ -18,7 +18,7 @@ export default function Navbar() {
     const signInTranslation = useTranslations('SignIn');
 
     return (
-        <Popover className="relative bg-light-200 dark:bg-dark-900">
+        <Popover className="relative bg-light-200 dark:bg-dark-900 z-40">
             <div className="absolute inset-0 shadow z-30 pointer-events-none" aria-hidden="true"/>
             <div className="relative z-20">
                 <div

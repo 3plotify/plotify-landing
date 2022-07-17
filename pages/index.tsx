@@ -1,6 +1,7 @@
 import type {GetStaticPropsContext, NextPage} from 'next'
 import {DefaultLayout} from "../src/components/layout/default-layout";
 import {useTranslations} from "use-intl";
+import HeroSection from "../src/components/section/hero/hero-section";
 
 export async function getStaticProps({locale}: GetStaticPropsContext) {
     return {
@@ -13,7 +14,7 @@ export async function getStaticProps({locale}: GetStaticPropsContext) {
 const Home: NextPage = () => {
     return (
         <DefaultLayout>
-
+            <HeroSection/>
         </DefaultLayout>
     )
 }
